@@ -1,0 +1,7 @@
+name: Boids
+version: '${project.version}'
+main: com.heledron.minecraft.boids.BoidsPlugin
+api-version: 1.18
+commands:
+  boids:
+    usage: /boids avoidance|alignment|cohesion true|false
